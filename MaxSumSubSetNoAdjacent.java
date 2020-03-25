@@ -7,8 +7,8 @@ package com.java.algo;
 public class MaxSumSubSetNoAdjacent {
 
 	public static int maxSubsetSumNoAdjacent(int[] array) {
-		int withMax = 0;
-		int withOutMax = 0;
+		int withMax = 0; //Maximum Sum with current Value
+		int withOutMax = 0; //Maximum Sum with out current Value
 		int temp = 0;
 		for (int i = 0; i < array.length; i++) {
 			temp = withMax;
